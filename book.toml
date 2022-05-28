@@ -1,0 +1,34 @@
+[book]
+authors = ["Oreomeow"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Law-Book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+curly-quotes = true
+no-section-label = true
+git-repository-url = "https://github.com/Oreomeow/Law-book2"
+git-repository-icon = "fa-github"
+site-url = "/docs/"
+
+[output.html.print]
+enable = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+limit-results = 100
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
